@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: Cabin,sans-serif;
+    color: #666;
+    font-size: 14px;
+}
+
+.navbar{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.nav-item a{
+    color:#666;
+}
+
+.navbar-brand img{
+    margin-top: -10px;
+}
+
+.vertical-line {
+    border-left: 1px solid #33333318; 
+    height: 30px; 
+    margin-top: 5px;
+}
+
+.container-fluid{
+    padding: 12px 110px;
+}
+
+.nav-item{
+    padding: 0px 8px;
+}
+
+.signup{
+    background-color: #7540ee; /*#5d3eff*/
+    border-radius: 50px;
+    padding: 3px 34px;
+}
+
+.signup a{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.signup a:hover{
+    color: white;
+}
+
+.signup:hover{
+    background-color: #4f2aa7;
+    transition: .3s ease-in-out;
+    color: white;
+}
+
+.dropdown-menu{  
+    padding: 0px 0px 20px 0px;
+    margin: 15px;
+    font-size: 14px;
+    width: 220px;
+    border-radius: 10px;
+    outline:2px solid rgb(170, 170, 170);
+}
+
+.dropdown-menu label{
+    padding: 25px 0px 10px 20px;
+    color: #7540ee;
+    letter-spacing: 1px;
+}
+
+.dropdown-item{
+    padding: 6px 30px;
+    font-weight: 600;
+}
+
+.interface {
+    background-image: url(images/bg-image1.png);
+    background-position: right top; /* Position the background image to the right */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: auto 109%; /* Set background image size to 50% width and auto height */
+    background-attachment: scroll; /* Scroll along with content */
+    background-color: #7540ee;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+    padding: 90px 5%;
+    display: flex;
+    position: relative;
+}
+
+.interface-content{
+    width: 65%;
+}
+
+.interface-content h1{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
+    max-width: 620px;
+    min-height: 112px;
+}
+
+.interface-content span{
+    border-bottom: 3px solid orange;
+}
+
+.interface-container{
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1140px;
+    display: flex;
+}
+
+.interface-title{
+    color: #ddd;
+    text-align: left;
+    letter-spacing: 1px;
+    align-self: flex-start;
+    max-width: 500px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.interface-heading{
+    color: #fff;
+    text-align: left;
+    align-self: flex-start;
+    padding-right: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.interface-para{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
+    max-width: 620px;
+    margin: 15px 0px;
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    display: block;
+}
+
+.button-get-started{
+    background-color: orange;
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    margin: 5px 0px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    outline: none;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.button-get-started:hover{
+    background-color: rgba(255, 166, 0, 0.856);
+    transition: 0.2s ease-in-out;
+}
+
+.interface-block img{
+    border-radius: 10px;
+    display: inline-block; /* Ensures the container only takes the space it needs */
+    box-shadow: -2px -2px 80px rgba(0, 0, 0, 0.4); /* Adds a shadow effect */
+    display: block; /* Ensures the image is displayed as a block element */
+    max-width: 100%; /* Limits the maximum width of the image to its container */
+    height: auto; /* Allows the image to scale proportionally with its width */
+
+}
+
+.top-orgs{
+    color:#8a94a6;
+    padding: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.container{
+    padding: 30px 0px;
+}
+
+.orgs-logo{
+    opacity: .55;
+    filter: saturate(0%);
+    width: auto;
+    /*max-height: 60px;*/
+    transition: all .2s;
+}
+
+.orgs-logo:hover{
+    opacity: 1;
+    filter: saturate(100%);
+}
+
+.orgs-logo img{
+    padding: 0px 0px;
+}
+
+.demo{
+    background-color: #f5f7fd;
+    padding: 1px 40px;
+    outline: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.container-demo{
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Vertically center items */
+    background-color: #fdfaf3;
+    padding: 20px 30px;
+    outline: 1px solid #ffab00;
+    border-radius: 10px;
+    margin :50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+
+}
+
+.container-demo span{
+    flex: 1;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container-demo a{
+    margin-left: auto;
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: white;
+    color: orange;
+    outline: 2px solid orange;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.container-demo a:hover{
+    background-color: orange;
+    color: white;
+    transition: .3s ease-in-out;
+}
