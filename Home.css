@@ -644,7 +644,6 @@ body {
 .footer {
     padding: 50px 90px;
     text-align: left;
-    margin-bottom: -30%;
 }
 
 .footer-box {
@@ -707,6 +706,7 @@ body {
     padding: 8px;
 }
 
+/*MEDIA QUERIES FOR RESPONSIVENESS*/
 @media only screen and (max-width: 992px) {
     .interface {
         background-image: none;
@@ -731,55 +731,48 @@ body {
     }
 }
 
-
-/* For screens smaller than 768px (small screens) */
 @media screen and (max-width: 767px) {
     .container-demo {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
     .polling-container {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center;
     }
     .poll-text,
     .poll-button {
-        text-align: center; /* Center align text and button */
-        margin: 10px 0; /* Add some spacing between text and button */
+        text-align: center;
+        margin: 10px 0;
     }
-
     .demo-text,
     .demo-button {
-        text-align: center; /* Center align text and button */
-        margin: 10px 0; /* Add some spacing between text and button */
+        text-align: center;
+        margin: 10px 0;
     }
 }
 
-/* For screens between 768px and 1023px (medium screens) */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container-demo {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column;
+        align-items: center;
     }
     .polling-container {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
     .poll-text,
     .poll-button {
-        text-align: center; /* Center align text and button */
-        margin: 10px 0; /* Add some spacing between text and button */
+        text-align: center;
+        margin: 10px 0; 
     }
 
     .demo-text,
     .demo-button {
-        text-align: center; /* Center align text and button */
-        margin: 10px 0; /* Add some spacing between text and button */
+        text-align: center; 
+        margin: 10px 0; 
     }
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
     .footer-box {
