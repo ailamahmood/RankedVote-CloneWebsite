@@ -8,10 +8,15 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="Home.css" rel="stylesheet">
+    <script src="Home.js"></script>
 
 </head>
 
@@ -74,7 +79,7 @@
             <div class="interface-block interface-content">
                 <p class="interface-title">ONLINE RANKED CHOICE VOTING APP</p>
                 <h1 class="interface-heading">The ranked choice platform for
-                    <span class="changing-words">changing words</span>
+                    <span class="changing-words"> </span><span class="typing-line"></span>
                 </h1>
 
                 <p class="interface-para">Uncover your group's preferences. Get instant results. All with greater
@@ -119,63 +124,317 @@
 
     <div class="demo">
         <div class="container-demo">
-            <span>See live demos of ranked-choice elections, contests, and polls using RankedVote!</span>
-            <a href="#">VIEW DEMOS</a>
+            <div class="demo-text">
+                <span>See live demos of ranked-choice elections, contests, and polls using RankedVote!</span>
+            </div>
+            <div class="demo-button">
+                <a href="#">VIEW DEMOS</a>
+            </div>
         </div>
     </div>
 
     <div class="features">
         <div class="container text-center">
-            <div class="title">
+            <div class="features-title">
                 <p>KEY FEATURES</p>
                 <h2>The best way to use ranked choice voting online.</h2>
             </div>
 
-            <div class="row">
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+            <div class="features-line"></div>
+
+            <div class="row feature-container">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature1.png" alt="Feature image">
                     <h3>Embed on Your Site</h3>
                     <p>Seamlessly integrate ranked choice contests on your page.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature2.png" alt="Feature image">
                     <h3>Unlimited Candidates</h3>
                     <p>Voters can choose from a broad array of choices in each contest.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature3.png" alt="Feature image">
                     <h3>Unlimited Voters</h3>
                     <p>Reach your voters. Even if there's 100,000 of them.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature4.png" alt="Feature image">
                     <h3>Duplicate Detection</h3>
                     <p>Filter out votes that may not be unique.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature5.png" alt="Feature image">
                     <h3>Private Results</h3>
                     <p>Make sure the outcome isn't revealed until you want it to be.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature6.png" alt="Feature image">
                     <h3>Custom Call to Action</h3>
                     <p>Send voters to any website after they vote.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature7.png" alt="Feature image">
                     <h3>Detailed Profiles</h3>
                     <p>Flesh out choices with detailed descriptions and pictures.</p>
                 </div>
-                <div class="col feature">
-                    <img src="images/Adobe.png" alt="Feature image" width="10" height="10">
+                <div class="col-lg-3 col-md-6 feature key-feature">
+                    <img src="images/feature8.png" alt="Feature image">
                     <h3>Highly Accessible</h3>
                     <p>Device friendly. Screen Reader friendly. Language friendly.</p>
+                </div>
+
+
+                <div class="feature-image">
+                    <img src="images/feature-site-image.png" alt="Feature Image">
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="voting-numbers">
+        <div class="row voting-numbers-container">
+            <div class="col-lg-4 col-md-12 mb-4 voting-container elections">
+                <h3>51,471</h3>
+                <div class="voting-container-text">
+                    Elections created
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 voting-container voters">
+                <h3>1,260,285</h3>
+                <div class="voting-container-text">
+                    Voters
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 voting-container rank-candidates">
+                <h3>270,615</h3>
+                <div class="voting-container-text">
+                    Candidates ranked
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="features working">
+        <div class="container text-center">
+            <div class="features-title">
+                <p>HOW RANKED CHOICE VOTING WORKS</p>
+                <h2>Voters rank once. Strongest support wins.</h2>
+            </div>
+
+            <div class="features-line"></div>
+
+            <div class="row feature-container">
+                <div class="col-lg-4 col-md-6 feature">
+                    <div class="feature-number one">1</div>
+                    <h3>Voters rank ballots</h3>
+                    <p>Each voter selects their most preferred choices on the ballot. First, second, third, and so on.
+                        <br><br>
+                        In the first round, the top ranked choices are counted to determine if a choice received enough
+                        votes to win.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 feature">
+                    <div class="feature-number two">2</div>
+                    <h3>Lowest vote getters are eliminated</h3>
+                    <p>If no choice gets enough votes to win, the choice with the least votes is eliminated.
+                        <br><br>
+                        Those who voted for an eliminated choice have their vote redistributed to their next choice in
+                        the following round.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 feature">
+                    <div class="feature-number three">3</div>
+                    <h3>Repeat until a winner is found</h3>
+                    <p>In the next round, the redistributed votes are added to the remaining choices' totals.
+                        <br><br> ‍
+                        The elimination and redistribution process repeats automatically until a choice receives enough
+                        votes to win.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item one active">
+                <div class="carousel-content">
+                    <p>"Our community contest received tens of thousands of votes in a matter of days. No problems. Any
+                        questions we had were promptly answered.
+                        <br><br>
+                        RankedVote handled the scale easily and with all the pro/premium features, there really is no
+                        other competitor."
+                        <br>
+                    </p>
+                </div>
+                <div class="carousel-member">
+                    <img src="images/member1.jpeg" alt="Team Member">
+                    <p>JAT KARUNAKARAN
+                        <br>SENIOR PRODUCT MANAGER, STUDIO WILDCARD
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item two">
+                <div class="carousel-content">
+                    <p>"By allowing users to test out NYC’s grid-style ballot before heading to the polls, RankedVote
+                        offers voters a dynamic and engaging education in the Do's and Don'ts of RCV.
+                        <br><br>
+                        The City of New York is a proud partner of RankedVote.”
+                        <br>
+                    </p>
+                </div>
+                <div class="carousel-member">
+                    <img src="images/member2.jpeg" alt="Team Member">
+                    <p>LAURA WOOD
+                        <br>NEW YORK CITY'S CHIEF DEMOCRACY OFFICER
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item three">
+                <div class="carousel-content">
+                    <p>"If your organization has any interest in RCV education, be sure to include RankedVote in your
+                        toolkit."
+                        <br>
+                    </p>
+                </div>
+                <div class="carousel-member">
+                    <img src="images/member3.jpeg" alt="Team Member">
+                    <p>AHMED BUTT
+                        <br>CIVIC ENGAGEMENT COORDINATOR, ASIAN AMERICAN FEDERATION
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="features decision">
+        <div class="container text-center">
+            <div class="features-title">
+                <p>WHY RANKED CHOICE VOTING WORKS</p>
+                <h2>Better decisions, faster.</h2>
+            </div>
+
+            <div class="features-line"></div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 decision-feature">
+                    <p>
+                        Any time you're making a decision with more than two choices, ranked choice voting is the right
+                        tool for the job. It uncovers your audience's preferences with greater accuracy and fidelity
+                        than traditional voting methods. <a href="#">Create a poll</a> to see how.
+                    </p>
+                    <div class="advantage-heading">
+                        KEY ADVANTAGES OF RANKED CHOICE VOTING
+                    </div>
+                    <div class="advantages">
+                        <div class="advantage">
+                            <p><img src="images/check.png" alt="Check">Determines the choices with the strongest support
+                            </p>
+                        </div>
+                        <div class="advantage">
+
+                            <p><img src="images/check.png" alt="Check">Eliminates the need for multiple decision rounds
+                            </p>
+                        </div>
+                        <div class="advantage">
+
+                            <p><img src="images/check.png" alt="Check">Reduces vote gaming</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 advantage-image">
+                    <img src="images/result-image.png" alt="Feature Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="polling">
+        <div class="polling-container">
+            <div class="poll-text">
+                <p>GET STARTED IN MINUTES...</p>
+                <h1>Poll your voters now</h1>
+            </div>
+            <div class="poll-button">
+                <a href="#">GET STARTED</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-i f4">
+                <a href="#"><img src="images/logo.png" alt="RankedVote" width="196px"></a>
+                <p class="footer-copyright">
+                    &copy; 2024 RankedVote, LLC. All rights reserved
+                </p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer-i f2">
+                <h4>App</h4>
+                <a href="#">Features</a><br>
+                <a href="#">Pricing</a><br>
+                <a href="#">Demo</a><br>
+                <a href="#">Extension</a><br>
+                <a href="#">Sign Up</a><br>
+            </div>
+
+            <div class="footer-i f2">
+                <h4>Solutions</h4>
+                <a href="#">Run Contests</a><br>
+                <a href="#">Make Decisions</a><br>
+                <a href="#">Educate Voters</a><br>
+                <a href="#">Team Collaboration</a><br>
+                <a href="#">Bulk Programs</a><br>
+                <a href="#">Success Stories</a><br>
+            </div>
+
+            <div class="footer-i f2">
+                <h4>Guides</h4>
+                <a href="#">Using RankedVote</a><br>
+                <a href="#">Understanding RCV</a><br>
+                <a href="#">Applying RCV</a><br>
+                <a href="#">2024 Elections</a><br>
+                <a href="#">FAQ</a><br>
+            </div>
+
+            <div class="footer-i f2">
+                <h4>Company</h4>
+                <a href="#">About</a><br>
+                <a href="#">Contact</a><br>
+                <a href="#">Press</a><br>
+                <a href="#">Terms</a><br>
+                <a href="#">Privacy Policy</a><br>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br>
+
+
+
+
+
 
 </body>
 
