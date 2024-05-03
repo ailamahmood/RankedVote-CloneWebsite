@@ -707,6 +707,12 @@ body {
 }
 
 /*MEDIA QUERIES FOR RESPONSIVENESS*/
+@media (max-width: 992px) {
+    .hide-on-small {
+        display: none !important;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .interface {
         background-image: none;
